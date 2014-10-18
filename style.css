@@ -100,4 +100,19 @@ figure img {
 	border-radius: 50px;
 }
 
+h1 {
+padding-top: 20px;
+font-family: "pt-sans", Helvetica, Arial, sans-serif;font-size: 3em;
+font-weight: bold;
+color: #4A4A4A;
+letter-spacing: -2px;
+opacity: 1;
+}
 
+h2 {
+font-family: "pt-sans", Helvetica, Arial, sans-serif;
+font-weight: 500;
+font-size: 2em;
+color: #4A4A4A;
+opacity: 0.9;
+}
