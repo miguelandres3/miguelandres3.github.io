@@ -39,8 +39,9 @@
 		
 		<h2 style="display: block;">Interaction Designer & Developer
 	</h2></header>
-
-	<div id="seemore" class="bounce" style="display: none;">Scroll to see more ↓</div>
+	<div id="mission"><b>Current Mission:</b> 
+	Looking for a  challenging thesis project for my master on HCI & Design.</div>
+	<div id="seemore"style="display: block;">Scroll to see more ↓</div>
 
 <h3>- Featured projects -</h3>
 
@@ -52,7 +53,6 @@
 
 				<div class="grid-8">
 					<h3>Videoclipper</h3>
-					<h4>Interaction designer</h4>					
 				</div>
 
 				<div class="grid-12">
@@ -60,8 +60,9 @@
 				</div>
 				
 				<div class="grid-8">
-					<p>Working with HCI leading experts, designed, prototyped and performed user tests for a mobile app for structured video capture by researchers and designers using IOS devices.</p>
-
+					<p>Working with HCI leading experts at the French institute for research in computer science and automation (INRIA); designed, prototyped and performed user tests for a mobile app for structured video capture used by researchers and designers. 
+The application is intended to aid shooting Interviews, Video-prototypes, Tutorials and experiments.</p>
+<p>After several iterations starting with paper prototypes the application was implemented on a software prototype currently in use by researchers at INRIA.</p>
 				</div>
 
 		</div>
@@ -77,19 +78,17 @@
 				
 				<div class="grid-8">
 					<h3>Peixe Urbano</h3>
-					<h4>Senior software engineer</h4>					
 				</div>
 				<div class="grid-12">
 					<div class="screen4 animated fadeIn"></div> 
 				</div>
 				
 				<div class="grid-8">
-					<p>I saw the company grow from 200 to 1,000+ employees, watched acquisitions, failures, launched new products and had the oportunity to craft every pixel from emails to mobile apps.</p>
-
+					<p>
+					As one of the first engineers hired the startup Peixe Urbano saw it grow from 200 employees to more than 1000 and reach more than 20 million registered users in less than 2 years. I had the opportunity to work closely with the product design team and participated in projects for extracting metrics, A/B testing, implementing UI redesigns, international launches and company acquisitions.</p>
 				</div>
 		</div>
 	</div>
-
 </section>
 
 	
@@ -104,7 +103,15 @@
 		</ul>
 </footer>
 	
+<script>
+/* Reveal button on scroll length 500 */
+	$(window).scroll(function(){
+		if($(this).scrollTop() > 0){
 
+			$("#seemore").fadeOut(1);
+		}
+	});
+</script>
 
 <script type="text/javascript">
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
