@@ -71,13 +71,13 @@ a:active { position: relative; top: 1px;}
 
 header {
 
-	height: 550px;
+	height: 650px;
 
 }
 
 #mission {
 	padding-top: 20px;
-	padding-bottom: 40px;
+	padding-bottom: 120px;
 	font-size:1.3em;
 	line-height: 1.5em;
 	font-weight:400;
